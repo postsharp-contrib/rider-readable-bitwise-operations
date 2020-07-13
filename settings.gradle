@@ -1,0 +1,3 @@
+rootProject.name = 'ReadableBitwiseOperations'
+
+include ':protocol'

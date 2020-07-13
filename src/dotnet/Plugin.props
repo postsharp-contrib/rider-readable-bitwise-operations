@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <SdkVersion>2019.2.0-*</SdkVersion>
+    
+    <Title>Readable bitwise operations</Title>
+    <Description>Folds simple bitwise operations on enum flags into simpler green text</Description>
+  
+    <Authors>Petr Hudeček</Authors>
+    <Copyright>Copyright 2019-2020 PostSharp Technologies</Copyright>
+    <PackageTags>resharper plugin</PackageTags>
+  
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageIconUrl></PackageIconUrl>
+  </PropertyGroup>
+</Project>

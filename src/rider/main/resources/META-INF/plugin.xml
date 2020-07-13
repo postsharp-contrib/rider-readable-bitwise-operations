@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>bitwise-rider</id>
+  <name>Readable bitwise operations</name>
+  <version>1.0</version>
+  <vendor>PostSharp Technologies</vendor>
+  <idea-version since-build="191" />
+  <depends>com.intellij.modules.rider</depends>
+
+  <description>
+    <![CDATA[
+<p>Folds simple bitwise operations on enum flags into simpler green text.</p>
+]]>
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
