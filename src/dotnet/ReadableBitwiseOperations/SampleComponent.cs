@@ -60,19 +60,19 @@ namespace ReSharperPlugin.SimplerBitwise
                                     binaryAddition.RightOperand.GetText() + " ∈ " +
                                     binaryAddition.LeftOperand.GetText());
                                 return;
-                            }
+                            }Y
                         }
                     }
                 }
             }
             
-            if (binaryExpressionParam.OperatorSign.GetText() == "==")
+            if (binaryExpressionParam?.OperatorSign?.GetText() == "==")
             {
-                if (binaryExpressionParam.RightOperand.GetText() == "0")
+                if (binaryExpressionParam?.RightOperand?.GetText() == "0")
                 {
-                    if (binaryExpressionParam.LeftOperand is IParenthesizedExpression parenthesizedExpression)
+                    if (binaryExpressionParam?.LeftOperand is IParenthesizedExpression parenthesizedExpression)
                     {
-                        if (parenthesizedExpression.Expression is IBinaryExpression binaryAddition)
+                        if (parenthesizedExpression?.Expression is IBinaryExpression binaryAddition)
                         {
                             if (binaryAddition.OperatorSign.GetText() == "&")
                             {
