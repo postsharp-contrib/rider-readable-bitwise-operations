@@ -60,7 +60,7 @@ namespace ReSharperPlugin.SimplerBitwise
                                     binaryAddition.RightOperand.GetText() + " ∈ " +
                                     binaryAddition.LeftOperand.GetText());
                                 return;
-                            }Y
+                            }
                         }
                     }
                 }

@@ -1,5 +1,7 @@
 **Readable bitwise operations (Rider plugin)**
 
+[Download from JetBrains plugins repository.](https://plugins.jetbrains.com/plugin/15261-readable-bitwise-operations)
+
 Folds simple bitwise operations on enums with `[Flags]` into simpler green text that looks like this:
 
 ![](img/screen.png)
