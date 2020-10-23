@@ -1,14 +1,14 @@
-<idea-plugin>
-  <id>bitwise-rider</id>
-  <name>Readable bitwise operations</name>
-  <version>1.0</version>
-  <vendor>PostSharp Technologies</vendor>
+<idea-plugin url="https://github.com/postsharp-contrib/rider-readable-bitwise-operations/">
+  <id>net.postsharp.bitwise-rider</id>
+  <name>Readable Bitwise Operations</name>
+  <version>1.3</version>
+  <vendor url="https://postsharp.net" email="hello@postsharp.net">PostSharp Technologies</vendor>
   <idea-version since-build="191" />
   <depends>com.intellij.modules.rider</depends>
 
   <description>
     <![CDATA[
-<p>Folds simple bitwise operations on enum flags into simpler green text.</p>
+<p>Folds bitwise operations on enum flags into simpler green text with ∈ and ∉. This way, you no longer need to spend time thinking about what that == or != means.</p>
 ]]>
   </description>
 
